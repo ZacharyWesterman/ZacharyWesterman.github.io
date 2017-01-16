@@ -35,7 +35,7 @@ url: ""
 #twitter_username: jekyllrb
 github_username:  ZacharyWesterman
 
-favicon: "https://zacharywesterman.github.io/favicon.ico"
+#favicon: "https://zacharywesterman.github.io/favicon.ico"
 
 # Build settings
 theme: jekyll-theme-cayman
