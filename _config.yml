@@ -30,10 +30,12 @@ description:
 
 baseurl: "https://zacharywesterman.github.io"
 # the subpath of your site, e.g. /blog
-url: "/ZEngine"
+url: ""
 # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  ZacharyWesterman
+
+favicon: "favicon.ico"
 
 # Build settings
 theme: jekyll-theme-cayman
