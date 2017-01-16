@@ -2,8 +2,7 @@
 category: Project
 path: '/project/:id'
 title: 'ZEngine'
-type: ''
-
+type:
 layout: default
 ---
 
