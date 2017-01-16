@@ -1,8 +1,8 @@
 ---
-category: Stuff
-path: '/stuff/:id'
-title: 'Delete a thing'
-type: 'DELETE'
+category: Project
+path: '/project/:id'
+title: 'Word search solver'
+type: ''
 
 layout: default
 ---
