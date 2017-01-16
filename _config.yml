@@ -18,7 +18,7 @@ permalink: ':title'
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 'Home'
+title: 'Zachary W.'
 email: zacharywesterman@yahoo.com
 description:
 
