@@ -1,10 +1,12 @@
 ---
 category: Project
 path: '/project/:id'
-title: '[Irrlicht website](irrlicht.sourceforge.net "irrlicht.sourceforge.net")'
+title: 'ZEngine'
 type:
 layout: default
 ---
+
+###[ZEngine](ZEngine "Go to documentation")
 
 A real-time script parser using the Irrlicht API.
 The purpose of this project is to allow users to create complex programs (e.g. games) by writing a simple script. My goal is for the project to be as light-weight and fast as possible, while still allowing users to create aesthetically pleasing programs.

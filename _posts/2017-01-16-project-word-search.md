@@ -1,5 +1,5 @@
 ---
-category: Project
+category: Projects
 path: '/project/:id'
 title: 'Word search solver'
 type:
