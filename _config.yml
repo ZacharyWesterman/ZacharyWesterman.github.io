@@ -30,7 +30,7 @@ description:
 
 baseurl: "https://zacharywesterman.github.io"
 # the subpath of your site, e.g. /blog
-url: ""
+url: "/ZEngine"
 # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  ZacharyWesterman
