@@ -6,22 +6,12 @@ type:
 layout: default
 ---
 
-This method allows the user to post a new thing to his stuff.
+A command-line program that analyzes a grid of letters in the user specified file, and solves it according to regular word-search rules, and any stipulations the user adds.
 
-### Request
-
-* **`:id`** is the id the thing to delete.
-* The headers must include a **valid authentication token**.
-* **The body is omitted**.
-
-### Response
-
-Sends back a collection of things.
-
-```Status: 200 Deleted```
-```{
-    code: 200,
-    message: 'Your thing (id: 736) was deleted'
-}```
-
-For errors responses, see the [response status codes documentation](#response-status-codes).
+To start, launch the terminal, then change the directory to "FULL DIRECTORY/word-search-solver/bin/debug". Then to run the program you have a few possibilities.
+You may type:
+- 'analyzewordsearch "path/file_name.extension"' to search for individual words/phrases in the word search
+- 'analyzewordsearch "path/file_name.extension" all' to find all words in the word search
+- 'analyzewordsearch "path/file_name.extension" all from X' to list all words containing at least X characters
+- 'analyzewordsearch "path/file_name.extension" all to Y' to list all words containing at most Y characters
+- 'analyzewordsearch "path/file_name.extension" all from X to Y' to list all words containing between X and Y characters, inclusive.
