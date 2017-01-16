@@ -17,4 +17,4 @@ To compile this program, download the Irrlicht API.
 Documentation for linking and compiling Irrlicht projects can be found on the [Irrlicht website](irrlicht.sourceforge.net "irrlicht.sourceforge.net").
 
 ### Downloads
-[Windows](https://github.com/ZacharyWesterman/ZEngine/raw/master/bin/Debug/installer.exe "Download Windows installer")
+[Windows](https://github.com/ZacharyWesterman/ZEngine/raw/master/bin/Debug/installer.exe "Download current version")
