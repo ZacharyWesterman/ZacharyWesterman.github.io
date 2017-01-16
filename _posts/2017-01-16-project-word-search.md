@@ -8,11 +8,10 @@ layout: default
 
 A command-line program that analyzes a grid of letters in the user specified file, and solves it according to regular word-search rules, and any stipulations the user adds.
 
-To start, launch the terminal, then change the directory to "FULL DIRECTORY/word-search-solver/bin/debug". Then to run the program you have a few possibilities.
-
-### Possible command formats
+To start, download and open the self-extracting archive. Launch the terminal, then change the directory to where the program was installed, for example "C:\word-search-solver\". To run the program you have a few possibilities.
 
 
+### Possible command formats:
 
 Search for individual words/phrases in the word search,
 ```analyzewordsearch "path/file_name.extension"```
@@ -28,3 +27,8 @@ List all words containing at most Y characters,
 
 List all words containing between X and Y characters, inclusive.
 ```analyzewordsearch "path/file_name.extension" all from X to Y```
+
+
+### Downloads
+
+[Windows](# "NEED WINDOWS LINK")
