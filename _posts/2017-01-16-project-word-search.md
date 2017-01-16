@@ -11,8 +11,8 @@ A command-line program that analyzes a grid of letters in the user specified fil
 To start, launch the terminal, then change the directory to "FULL DIRECTORY/word-search-solver/bin/debug". Then to run the program you have a few possibilities.
 
 ### Possible command formats
-
-Search for individual words/phrases in the word search,
+#
+#### Search for individual words/phrases in the word search,
 ```
 analyzewordsearch "path/file_name.extension"
 ```
