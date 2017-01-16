@@ -2,8 +2,7 @@
 category: Project
 path: '/project/:id'
 title: 'Word search solver'
-type: ''
-
+type:
 layout: default
 ---
 
