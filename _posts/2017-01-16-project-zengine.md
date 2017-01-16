@@ -1,6 +1,6 @@
 ---
 category: Projects
-path: '/project/:id'
+path: '/projects/:id'
 title: 'ZEngine'
 type:
 layout: default
