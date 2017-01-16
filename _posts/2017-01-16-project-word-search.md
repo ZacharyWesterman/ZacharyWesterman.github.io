@@ -31,4 +31,4 @@ List all words containing between X and Y characters, inclusive.
 
 ### Downloads
 
-[Windows](# "NEED WINDOWS LINK")
+[Windows](https://github.com/ZacharyWesterman/word-search-solver/raw/master/bin/Debug/installer.exe "Download windows installer")
