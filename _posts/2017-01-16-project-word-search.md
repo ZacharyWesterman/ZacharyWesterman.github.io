@@ -6,7 +6,7 @@ type:
 layout: default
 ---
 
-This is a command-line program that analyzes a grid of letters in the user specified file, and solves it according to regular word-search rules, and any stipulations the user adds. This program has only been compiled for Windows and I do not intend to compile it for other machines because the code is very messy and I can't be bothered to rewrite it. If you would like to take a look at the code and perhaps rewrite some of it, head over to its [repository] (https://github.com/ZacharyWesterman/word-search-solver "https://github.com/ZacharyWesterman/word-search-solver").
+This is a command-line program that analyzes a grid of letters in the user specified file, and solves it according to regular word-search rules, and any stipulations the user adds. This program has only been compiled for Windows and I do not intend to compile it for other machines because the code is very messy and I can't be bothered to rewrite it. If you would like to take a look at the code and perhaps rewrite some of it, head over to its [repository](https://github.com/ZacharyWesterman/word-search-solver "https://github.com/ZacharyWesterman/word-search-solver").
 
 
 ### Installation:

@@ -80,7 +80,7 @@ baseurl: "" # does not include hostname
 show_dir_listing: false
 
 # Outputting
-permalink:     date
+permalink:     ":title"
 paginate_path: /page:num
 timezone:      null
 
