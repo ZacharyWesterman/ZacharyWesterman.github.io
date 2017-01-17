@@ -32,6 +32,6 @@ List all words containing between X and Y characters, inclusive.
 ```analyzewordsearch "path/file_name.extension" all from X to Y```
 
 
-### Downloads
+### Downloads:
 
 [Windows](https://github.com/ZacharyWesterman/word-search-solver/raw/master/bin/Debug/installer.exe "Download windows installer")
