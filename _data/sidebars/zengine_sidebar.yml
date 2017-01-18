@@ -52,11 +52,3 @@ entries:
     - title: Commands
       url: script_commands.html
       output: web, pdf
-
-  - title: Sample Scripts
-    output: web
-    folderitems:
-
-    - title: Hello World
-      url: sample_hello_world.html
-      output: web, pdf
