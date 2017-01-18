@@ -57,6 +57,6 @@ entries:
     output: web
     folderitems:
 
-    - Hello World
+    - title: Hello World
       url: sample_hello_world.html
       output: web, pdf
