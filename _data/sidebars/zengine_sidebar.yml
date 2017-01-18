@@ -1,75 +1,22 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
-
 entries:
 - title: Sidebar
-  product: ZEngine
-  version: 0.0.1
+  levels: one
   folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
+  - title: Products
+    output: web
     folderitems:
-    - title:
-      url: /titlepage
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage
-      output: pdf
-      type: frontmatter
-
-  - title: Overview
-    output: web, pdf
-    folderitems:
-
-    - title: Introduction
-      url: /introduction.html
-      output: web, pdf
-
-    - title: Features
-      url: /features.html
-      output: web, pdf
-
-    - title: Installing
-      url: /installing.html
-      output: web, pdf
-
-    - title: Downloading the code
-      url: /downloading.html
-      output: web, pdf
-
-    - title: Support
-      url: /support.html
-      output: web, pdf
-
-
-  - title: Learning the script
-    output: web, pdf
-    folderitems:
-
-    - title: Expressions
-      url: /script_expressions.html
-      output: web, pdf
-
-    - title: Variables
-      url: /script_variables.html
-      output: web, pdf
-
-    - title: Functions
-      url: /script_functions.html
-      output: web, pdf
-
-    - title: Commands
-      url: /script_commands.html
-      output: web, pdf
-
-  - title: Sample Scripts
-    output: web, pdf
-    folderitems:
-
-    - Hello World
-      url: /sample_hello_world.html
-      output: web, pdf
-
+    - title: News
+      url: /news.html
+      output: web
+    - title: Theme instructions
+      url: /mydoc_introduction.html
+      output: web
+    - title: ZEngine
+      url: /p1_landing_page.html
+      output: web
+    - title: Product 2
+      url: /p2_landing_page.html
+      output: web
