@@ -16,16 +16,8 @@ entries:
       url: introduction.html
       output: web, pdf
 
-    - title: Features
-      url: features.html
-      output: web, pdf
-
-    - title: Installing
-      url: installing.html
-      output: web, pdf
-
-    - title: Downloading the code
-      url: downloading.html
+    - title: Usage
+      url: usage.html
       output: web, pdf
 
     - title: Support
