@@ -3,7 +3,7 @@
 
 entries:
 - title: Sidebar
-  levels: one
+  levels: two
   product: ZEngine
   version: 0.0.1
   folders:
@@ -13,23 +13,23 @@ entries:
     folderitems:
 
     - title: Introduction
-      url: /introduction.html
+      url: introduction.html
       output: web, pdf
 
     - title: Features
-      url: /features.html
+      url: features.html
       output: web, pdf
 
     - title: Installing
-      url: /installing.html
+      url: installing.html
       output: web, pdf
 
     - title: Downloading the code
-      url: /downloading.html
+      url: downloading.html
       output: web, pdf
 
     - title: Support
-      url: /support.html
+      url: support.html
       output: web, pdf
 
 
@@ -38,19 +38,19 @@ entries:
     folderitems:
 
     - title: Expressions
-      url: /script_expressions.html
+      url: script_expressions.html
       output: web, pdf
 
     - title: Variables
-      url: /script_variables.html
+      url: script_variables.html
       output: web, pdf
 
     - title: Functions
-      url: /script_functions.html
+      url: script_functions.html
       output: web, pdf
 
     - title: Commands
-      url: /script_commands.html
+      url: script_commands.html
       output: web, pdf
 
   - title: Sample Scripts
@@ -58,5 +58,5 @@ entries:
     folderitems:
 
     - Hello World
-      url: /sample_hello_world.html
+      url: sample_hello_world.html
       output: web, pdf
