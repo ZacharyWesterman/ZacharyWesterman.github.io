@@ -1,11 +1,11 @@
 ---
 title: ZEngine
 keywords: zengine
-tags: [zengine, intro]
 sidebar: zengine_sidebar
 toc: false
 permalink: index.html
 ---
+
 <div class="row">
         <div class="col-lg-12">
             <h2 class="page-header">Services Panels</h2>
@@ -237,6 +237,3 @@ permalink: index.html
             </div>
         </div>
     </div>
-
-
-{% include links.html %}
