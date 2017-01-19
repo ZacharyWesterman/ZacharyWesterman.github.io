@@ -37,7 +37,7 @@ entries:
       subfolderitems:
 
       - title: List of functions
-        url: /zengine_functions.html
+        url: /zengine_functions.html#func_list
         output: web, pdf
 
     - title: Commands
@@ -45,5 +45,5 @@ entries:
       subfolderitems:
 
       - title: List of commands
-        url: /zengine_commands.html
+        url: /zengine_commands.html#cmd_list
         output: web, pdf
