@@ -34,16 +34,16 @@ entries:
     subfolders:
     - title: Functions
       output: web, pdf
-      folderitems:
+      subfolderitems:
 
-      - title: abs()
-        url: /zengine_func_abs.html
+      - title: List of functions
+        url: /zengine_functions.html
         output: web, pdf
 
     - title: Commands
       output: web, pdf
-      folderitems:
+      subfolderitems:
 
-      - title: print
-        url: /zengine_cmd_print.html
+      - title: List of commands
+        url: /zengine_commands.html
         output: web, pdf
