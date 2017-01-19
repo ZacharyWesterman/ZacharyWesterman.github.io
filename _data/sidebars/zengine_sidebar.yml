@@ -27,7 +27,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Introduction
+    - title: Syntax
       url: /zengine_syntax.html
       output: web, pdf
 
