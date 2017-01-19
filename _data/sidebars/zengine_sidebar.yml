@@ -27,10 +27,22 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Functions
-      url: /zengine_functions.html
+    - title: Introduction
+      url: /zengine_syntax.html
       output: web, pdf
 
-    - title: Commands
-      url: /zengine_commands.html
+    - title: Functions
       output: web, pdf
+      folderitems:
+
+      - title: abs()
+        url: /zengine_func_abs.html
+        output: web, pdf
+
+    - title: Commands
+      output: web, pdf
+      folderitems:
+
+      - title: print
+        url: /zengine_cmd_print.html
+        output: web, pdf
