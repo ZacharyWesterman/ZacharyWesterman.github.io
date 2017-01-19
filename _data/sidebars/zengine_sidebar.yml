@@ -1,46 +1,18 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
+# Follow the pattern here for the URLs -- no slash at the beginning, and include the .html. The link here is rendered exactly as is in the Markdown references.
 
 entries:
-- title: Sidebar
-  levels: two
-  product: ZEngine
-  version: 0.0.1
+- title: other
   folders:
 
-  - title: Overview
-    output: web
+  - title: Other Links
     folderitems:
 
-    - title: Introduction
-      url: introduction.html
-      output: web, pdf
+    - title: Automated links bookmark
+      url: /mydoc_hyperlinks.html#automatedlinks
 
-    - title: Usage
-      url: usage.html
-      output: web, pdf
+    - title: Bookmark links
+      url: /mydoc_hyperlinks.html#bookmarklinks
 
-    - title: Support
-      url: support.html
-      output: web, pdf
-
-
-  - title: Learning the script
-    output: web
-    folderitems:
-
-    - title: Expressions
-      url: script_expressions.html
-      output: web, pdf
-
-    - title: Variables
-      url: script_variables.html
-      output: web, pdf
-
-    - title: Functions
-      url: script_functions.html
-      output: web, pdf
-
-    - title: Commands
-      url: script_commands.html
-      output: web, pdf
+    - title: Some link bookmark
+      url: /mydoc_pages.html#someIdTag
