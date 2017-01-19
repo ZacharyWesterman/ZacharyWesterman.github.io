@@ -20,26 +20,66 @@ Here I will write some introduction about functions. Something has to go here to
 
 ### Rounding
 
+#### ceil()
+
+#### floor()
+
+#### round()
+
 ### Angles
 
+#### rad()
+
+#### deg()
+
 ### Square Root
+
+#### sqrt()
 
 
 ## Trigonometric Functions
 
 ### Sine, Cosine and Tangent
 
+#### sin()
+
+#### cos()
+
+#### tan()
+
 ### Inverse Sine, Cosine, and Tangent
+
+#### arcsin()
+
+#### arccos()
+
+#### arctan()
 
 
 ## Randomization Functions
+
+#### irand()
+
+#### frand()
 
 
 ## Color Functions
 
 ### Setting Color Values
 
+#### rgb()
+
+#### rgba()
+
 ### Getting Individual Color Values
+
+#### red()
+
+#### green()
+
+#### blue()
+
+#### alpha()
 
 
 {% include links.html %}
