@@ -24,9 +24,5 @@ topnav_dropdowns:
           external_url: http://idratherbewriting.com/category-jekyll/
     - title: Products
       folderitems:
-        - title: Jekyll Documentation Theme
-          url: /mydoc_introduction.html
         - title: ZEngine
-          url: /zengine_intro.html
-        - title: Product 2
-          url: /p2_landing_page.html
+          url: /index.html
