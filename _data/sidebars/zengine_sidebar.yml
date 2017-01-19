@@ -1,5 +1,5 @@
 
-# Follow the pattern here for the URLs -- no slash at the beginning, and include the .html. The link here is rendered exactly as is in the Markdown references.
+# Follow the pattern here for the URLs -- with a slash at the beginning, and include the .html. The link here is rendered exactly as is in the Markdown references.
 
 entries:
 - title: sidebar
@@ -11,34 +11,26 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Get started
-      url: /index.html
+    - title: Getting started
+      url: /zengine_intro.html
       output: web, pdf
 
-    - title: Introduction
-      url: /mydoc_introduction.html
-      output: web, pdf
-
-    - title: Supported features
-      url: /mydoc_supported_features.html
-      output: web, pdf
-
-    - title: About the theme author
-      url: /mydoc_about.html
+    - title: Features
+      url: /zengine_features.html
       output: web, pdf
 
     - title: Support
-      url: /mydoc_support.html
+      url: /zengine_support.html
       output: web, pdf
 
-  - title: Release Notes
+  - title: Learning the script
     output: web, pdf
     folderitems:
 
-    - title: 6.0 Release notes
-      url: /mydoc_release_notes_60.html
+    - title: Functions
+      url: /zengine_functions.html
       output: web, pdf
 
-    - title: 5.0 Release notes
-      url: /mydoc_release_notes_50.html
+    - title: Commands
+      url: /zengine_commands.html
       output: web, pdf

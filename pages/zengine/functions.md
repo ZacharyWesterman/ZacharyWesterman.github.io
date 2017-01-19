@@ -1,9 +1,9 @@
 ---
-title: Sample 5 Topic (Product 1)
+title: Sample 3 Topic (Product 1)
 keywords: sample
 summary: "This is just a sample topic..."
 sidebar: zengine_sidebar
-permalink: p1_sample5.html
+permalink: zengine_functions.html
 folder: zengine
 ---
 
