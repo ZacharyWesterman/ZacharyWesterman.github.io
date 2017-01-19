@@ -12,7 +12,7 @@ entries:
     folderitems:
 
     - title: Getting started
-      url: /zengine_intro.html
+      url: /index.html
       output: web, pdf
 
     - title: Features
