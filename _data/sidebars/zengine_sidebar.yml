@@ -31,19 +31,20 @@ entries:
       url: /zengine_syntax.html
       output: web, pdf
 
-    subfolders:
-    - title: Functions
-      output: web, pdf
-      subfolderitems:
+      subfolders:
+      - title: Functions
+        output: web
+        subfolderitems:
 
-      - title: List of functions
-        url: /zengine_functions.html#func_list
-        output: web, pdf
+        - title: List of functions
+          url: /zengine_functions.html#func_list
+          output: web
 
-    - title: Commands
-      output: web, pdf
-      subfolderitems:
+      - title: Commands
+        output: web
+        subfolderitems:
 
-      - title: List of commands
-        url: /zengine_commands.html#cmd_list
-        output: web, pdf
+        - title: List of commands
+          url: /zengine_commands.html#cmd_list
+          output: web
+
