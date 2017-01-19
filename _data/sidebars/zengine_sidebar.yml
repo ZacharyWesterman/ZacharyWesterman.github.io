@@ -31,6 +31,7 @@ entries:
       url: /zengine_syntax.html
       output: web, pdf
 
+    subfolders:
     - title: Functions
       output: web, pdf
       folderitems:
