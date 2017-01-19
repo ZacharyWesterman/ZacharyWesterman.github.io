@@ -2,17 +2,43 @@
 # Follow the pattern here for the URLs -- no slash at the beginning, and include the .html. The link here is rendered exactly as is in the Markdown references.
 
 entries:
-- title: other
+- title: sidebar
+  product: Jekyll Doc Theme
+  version: 6.0
   folders:
 
-  - title: Other Links
+  - title: Overview
+    output: web, pdf
     folderitems:
 
-    - title: Automated links bookmark
-      url: /mydoc_hyperlinks.html#automatedlinks
+    - title: Get started
+      url: /index.html
+      output: web, pdf
 
-    - title: Bookmark links
-      url: /mydoc_hyperlinks.html#bookmarklinks
+    - title: Introduction
+      url: /mydoc_introduction.html
+      output: web, pdf
 
-    - title: Some link bookmark
-      url: /mydoc_pages.html#someIdTag
+    - title: Supported features
+      url: /mydoc_supported_features.html
+      output: web, pdf
+
+    - title: About the theme author
+      url: /mydoc_about.html
+      output: web, pdf
+
+    - title: Support
+      url: /mydoc_support.html
+      output: web, pdf
+
+  - title: Release Notes
+    output: web, pdf
+    folderitems:
+
+    - title: 6.0 Release notes
+      url: /mydoc_release_notes_60.html
+      output: web, pdf
+
+    - title: 5.0 Release notes
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
