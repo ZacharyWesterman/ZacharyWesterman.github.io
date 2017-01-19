@@ -36,15 +36,32 @@ entries:
         output: web
         subfolderitems:
 
-        - title: List of functions
-          url: /zengine_functions.html#list-of-functions
+        - title: All functions
+          url: /zengine_functions.html
           output: web
+
+        - title: General
+          url: /zengine_functions.html#general-math-functions
+          output: web
+
+        - title: Trigonometric
+          url: /zengine_functions.html#trigonometric-functions
+          output: web
+
+        - title: Randomization
+          url: /zengine_functions.html#randomization-functions
+          output: web
+
+        - title: Colors
+          url: /zengine_functions.html#color-functions
+          output: web
+
 
       - title: Commands
         output: web
         subfolderitems:
 
         - title: List of commands
-          url: /zengine_commands.html#cmd_list
+          url: /zengine_commands.html
           output: web
 
