@@ -1,6 +1,6 @@
 ---
 title: Script Functions
-keywords: function
+keywords: functions
 summary: "This page contains descriptions of the various built-in script functions, with examples to demonstrate proper usage."
 sidebar: zengine_sidebar
 permalink: zengine_functions.html
@@ -13,6 +13,38 @@ Here I will write some introduction about functions. Something has to go here to
 
 
 ## General Math Functions
+
+The **floor(x)** function returns the nearest integer that is less than or equal to **x**.
+
+For example,
+```
+main
+  print floor(12.5)
+endmain
+```
+
+would output
+```
+12
+```
+
+
+
+The **ceil(x)** function returns the nearest integer that is greater than or equal to **x**. In other words, it returns the ceiling of **x**.
+
+For example,
+```
+main
+  print ceil(12.3)
+endmain
+```
+
+would output
+```
+13
+```
+
+
 
 ### Absolute Value
 
