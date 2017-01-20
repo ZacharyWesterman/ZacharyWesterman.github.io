@@ -33,8 +33,7 @@ The following example script and its output have been color-coded to help clarif
 
 **Example script**
 
-{% raw %}
-```
+<pre>
 main
   print <span class="red">round</span>(12.3)
   print <span class="green">ceil</span> (12.3)
@@ -46,13 +45,11 @@ main
   print <span class="green">ceil</span> (12.5)
   print <span class="blue">floor</span>(12.5)
 endmain
-```
-{% endraw %}
+<pre>
 
 **Output**
 
-{% raw %}
-```
+<pre>
 <span class="red">12</span>
 <span class="green">13</span>
 <span class="blue">12</span>
@@ -60,8 +57,7 @@ endmain
 <span class="red">13</span>
 <span class="green">13</span>
 <span class="blue">12</span>
-```
-{% endraw %}
+<pre>
 
 
 ### Angles
