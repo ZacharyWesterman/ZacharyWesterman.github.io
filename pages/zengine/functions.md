@@ -14,6 +14,15 @@ Here I will write some introduction about functions. Something has to go here to
 
 ## General Math Functions
 
+
+### Absolute Value
+
+
+### Logarithms
+
+
+### Rounding
+
 There are 3 built-in functions for rounding numbers: `round()`, `ceil()`, and `floor()`.  
   
 `round(x)` gives the **nearest integer** to `x` (round down if `x < 0.5`, up if `x >= 0.5`).  
@@ -48,15 +57,6 @@ endmain
 12
 ```
 
-
-
-### Absolute Value
-
-
-### Logarithms
-
-
-### Rounding
 
 
 ### Angles
