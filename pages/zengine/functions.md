@@ -14,6 +14,41 @@ Here I will write some introduction about functions. Something has to go here to
 
 ## General Math Functions
 
+There are 3 built-in functions for rounding numbers: `round()`, `ceil()`, and `floor()`.  
+  
+`round(x)` gives the **nearest integer** to `x` (round down if `x < 0.5`, up if `x >= 0.5`).  
+`ceil(x)` gives the **ceiling** of `x` (always round up).  
+`floor(x)` gives the **floor** of `x` (always round down).  
+
+**Example script**
+
+```
+main
+  print round(12.3)
+  print ceil (12.3)
+  print floor(12.3)
+
+  print ""
+
+  print round(12.5)
+  print ceil (12.5)
+  print floor(12.5)
+endmain
+```
+
+**Output**
+
+```
+12
+13
+12
+
+13
+13
+12
+```
+
+
 
 ### Absolute Value
 
@@ -22,42 +57,6 @@ Here I will write some introduction about functions. Something has to go here to
 
 
 ### Rounding
-
-There are 3 built-in functions for rounding numbers: `round()`, `ceil()`, and `floor()`.  
-  
-`round(x)` gives the **nearest integer** to `x` (round down if `x < 0.5`, up if `x >= 0.5`).  
-`ceil(x)` gives the **ceiling** of `x` (always round up).  
-`floor(x)` gives the **floor** of `x` (always round down).  
-  
-The following example script and its output have been color-coded to help clarify what each function outputs.
-
-**Example script**
-
-<pre>
-main
-  print <span class="red">round</span>(12.3)
-  print <span class="green">ceil</span> (12.3)
-  print <span class="blue">floor</span>(12.3)
-
-  print ""
-
-  print <span class="red">round</span>(12.5)
-  print <span class="green">ceil</span> (12.5)
-  print <span class="blue">floor</span>(12.5)
-endmain
-</pre>
-
-**Output**
-
-<pre>
-<span class="red">12</span>
-<span class="green">13</span>
-<span class="blue">12</span>
-
-<span class="red">13</span>
-<span class="green">13</span>
-<span class="blue">12</span>
-</pre>
 
 
 ### Angles
