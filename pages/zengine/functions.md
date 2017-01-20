@@ -45,7 +45,7 @@ main
   print <span class="green">ceil</span> (12.5)
   print <span class="blue">floor</span>(12.5)
 endmain
-<pre>
+</pre>
 
 **Output**
 
@@ -57,7 +57,7 @@ endmain
 <span class="red">13</span>
 <span class="green">13</span>
 <span class="blue">12</span>
-<pre>
+</pre>
 
 
 ### Angles
