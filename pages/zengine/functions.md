@@ -17,6 +17,7 @@ Here I will write some introduction about functions. Something has to go here to
 The **floor(x)** function returns the nearest integer that is less than or equal to **x**.
 
 For example,
+
 ```
 main
   print floor(12.5)
@@ -24,6 +25,7 @@ endmain
 ```
 
 would output
+
 ```
 12
 ```
@@ -33,6 +35,7 @@ would output
 The **ceil(x)** function returns the nearest integer that is greater than or equal to **x**. In other words, it returns the ceiling of **x**.
 
 For example,
+
 ```
 main
   print ceil(12.3)
@@ -40,6 +43,7 @@ endmain
 ```
 
 would output
+
 ```
 13
 ```
