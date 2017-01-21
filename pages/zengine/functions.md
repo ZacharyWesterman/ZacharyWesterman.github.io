@@ -162,10 +162,62 @@ endmain
 
 ### Sine, Cosine and Tangent
 
+These functions can be called with `sin()`, `cos()` and `tan()` respectively. It is important to note that all angles are assumed to be in radians, so be sure to convert if you're using degrees.  
+  
+`sin(x)` gives the sine of the angle `x`.
+`cos(x)` gives the cosine of the angle `x`.
+`tan(x)` gives the tangent of the angle `x`.
 
+**Example script**
+
+```
+main
+  #approximation of pi, answers won't be exact
+  pi = 3.141592654
+
+  print sin(pi/2)  ; #should be 1,
+  print cos(pi/3)  ; #0.5,
+  print tan(-pi/4); #-1
+endmain
+```
+
+**Output**
+
+```
+1
+0.5
+-1.000000001
+```
 
 
 ### Inverse Sine, Cosine, and Tangent
+
+Also called arc sine, arc cosine, and arc tangent, these functions can be called with `arcsin()`, `arccos()` and `arctan()` respectively. These functions do the opposite of sine, cosine and tangent, converting values back into an angle. It is important to note that angles are assumed to be in radians, so be sure to convert if you want to use degrees.  
+  
+`arcsin(x)` gives the sine of the angle `x`.
+`arccos(x)` gives the cosine of the angle `x`.
+`arctan(x)` gives the tangent of the angle `x`.
+
+**Example script**
+
+```
+main
+  #approximation of pi, answers won't be exact
+  pi = 3.141592654
+
+  print arcsin(1)/pi  ; #should be 1/2 (0.5),
+  print arccos(0.5)/pi; #1/3 (0.333...),
+  print arctan(-1)/pi ; #-1/4 (-0.25)
+endmain
+```
+
+**Output**
+
+```
+0.5
+0.333333333
+-0.25
+```
 
 
 ## Randomization Functions
