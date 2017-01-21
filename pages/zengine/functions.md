@@ -61,10 +61,32 @@ endmain
 
 ### Angles
 
-All of the built-in trigonometric functions assume that angles are in radians. Thus, if you want to use degrees, you will have to perform some conversions. To save you some time with that, there are two built-in functions for converting angles: `deg()` and `rad()`.  
+All of the built-in trigonometric functions assume that angles are in radians. Thus, if you want to use degrees, you will have to perform some conversions. To save you some time with that, there are two built-in functions for converting angles:
   
 `deg(x)` assumes that `x` is an angle in radians, and converts it to degrees.  
 `rad(x)` assumes that `x` is an angle in degrees, and converts it to radians.
+
+**Example script**
+
+```
+main
+  pi = 3.141592654
+
+  #pi/4 radians should be 45 degrees 
+  print deg(pi/4)
+
+  #the sine of 45 degrees should be about 0.7071
+  print sin( rad(45) )
+endmain
+```
+
+**Output**
+
+```
+45.000000035
+0.707106781
+```
+
 
 
 ### Square Root
