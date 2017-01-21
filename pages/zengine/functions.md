@@ -139,7 +139,7 @@ endmain
 
 Although it is entirely possible to type the square root of a number `x` as `x^(1/2)`, it does have its own function. It can be called using `sqrt()`.  
   
-`sqrt(x)` gives the square root of `x`. (Surprising!)
+`sqrt(x)` gives the square root of `x`.
 
 **Example script**
 
@@ -161,6 +161,8 @@ endmain
 ## Trigonometric Functions
 
 ### Sine, Cosine and Tangent
+
+
 
 
 ### Inverse Sine, Cosine, and Tangent
