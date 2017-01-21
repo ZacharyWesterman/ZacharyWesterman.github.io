@@ -40,8 +40,8 @@ endmain
 
 Unlike other functions, the `log()` function can take 1 *or* 2 parameters. If given one parameter, the base is assumed to be 10. If it is given two parameters however, then the first parameter is the base.  
   
-`log(x)` returns `log<sub>10</sub>` of `x`.  
-`log(n,x)` returns `log<sub>n</sub>` of `x`.
+`log(x)` returns log<sub>10</sub> of `x`.  
+`log(n,x)` returns log<sub>n</sub> of `x`.
 
 **Example script**
 
@@ -152,6 +152,29 @@ endmain
 ## Color Functions
 
 ### Setting Color Values
+
+Colors can be created using either `rgb()` or `rgba()`. Color values are just 4-byte integers with byte 1 assigned to red, byte 2 to blue, 3 to green, and 4 to the alpha (transparency) value. It is important to note that `rgba()` will give the same value as `rgb()`, if alpha is set to 255. It is also important to note that that the individual color values (e.g. alpha or red) should be integers ranging from 0-255 inclusive, but the program won't complain if you give it a number that doesn't follow these rules.  
+  
+`rgb(r,g,b)` will construct a color from the given red, green, and blue values (`r`, `g`, and `b` respectively).  
+
+`rgba(r,g,b,a)` will construct a color from the given red, green, blue, and transparency values (`r`, `g`, `b`, and `a` respectively).
+
+**Example script**
+
+```
+main
+  #set the background color to red
+  set background color rgb(255, 0, 0)
+
+  #wait 1 second
+  delay 1000
+
+  #set the background color to green
+  set background color rgba(0, 255, 0, 255)
+endmain
+```
+
+If you were to run the example, you would see the background start red, then after 1 second it would immediately switch to green.
 
 
 ### Getting Individual Color Values
