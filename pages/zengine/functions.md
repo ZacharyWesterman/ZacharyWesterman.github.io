@@ -36,8 +36,36 @@ endmain
 ```
 
 
-
 ### Logarithms
+
+Unlike other functions, the `log()` function can take 1 *or* 2 parameters. If given one parameter, the base is assumed to be 10. If it is given two parameters however, then the first parameter is the base.  
+  
+`log(x)` returns `log<sub>10</sub>` of `x`.
+`log(n,x)` returns `log<sub>n</sub>` of `x`.
+
+**Example script**
+
+```
+main
+  #these two lines are equivalent
+  print log(1000)
+  print log(10, 1000)
+
+  print ""
+
+  #1024 is 2 to what power?
+  print log(2, 1024)
+endmain
+```
+
+**Output**
+
+```
+3
+3
+
+10
+```
 
 
 ### Rounding
@@ -77,7 +105,6 @@ endmain
 ```
 
 
-
 ### Angles
 
 All of the built-in trigonometric functions assume that angles are in radians. Thus, if you want to use degrees, you will have to perform some conversions. To save you some time with that, there are two built-in functions for converting angles:
@@ -105,7 +132,6 @@ endmain
 45.000000035
 0.707106781
 ```
-
 
 
 ### Square Root
