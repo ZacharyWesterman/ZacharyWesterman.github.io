@@ -61,6 +61,11 @@ endmain
 
 ### Angles
 
+All of the built-in trigonometric functions assume that angles are in radians. Thus, if you want to use degrees, you will have to perform some conversions. To save you some time with that, there are two built-in functions for converting angles: `deg()` and `rad()`.  
+  
+`deg(x)` assumes that `x` is an angle in radians, and converts it to degrees.  
+`rad(x)` assumes that `x` is an angle in degrees, and converts it to radians.
+
 
 ### Square Root
 
