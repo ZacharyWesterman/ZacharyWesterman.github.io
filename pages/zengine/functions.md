@@ -221,7 +221,26 @@ endmain
 
 
 ## Randomization Functions
+There are two built-in functions for randomization: `irand()` and `frand()`. Each of them takes two parameters, lower and upper bound, and returns a random value between the bounds, inclusive.  
+  
+`irand(x,y)` gives a random integer with a value ranging from `x` to `y`.  
+`frand(x,y)` gives a random real number ranging from `x` to `y`, inclusive.  
 
+**Example script**
+
+```
+main
+  print irand(0,10)
+  print frand(0,10)
+endmain
+```
+
+**Possible output**
+
+```
+6
+2.679503956
+```
 
 
 ## Color Functions
