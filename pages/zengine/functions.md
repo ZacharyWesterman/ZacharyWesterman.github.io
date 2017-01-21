@@ -40,7 +40,7 @@ endmain
 
 Unlike other functions, the `log()` function can take 1 *or* 2 parameters. If given one parameter, the base is assumed to be 10. If it is given two parameters however, then the first parameter is the base.  
   
-`log(x)` returns `log<sub>10</sub>` of `x`.
+`log(x)` returns `log<sub>10</sub>` of `x`.  
 `log(n,x)` returns `log<sub>n</sub>` of `x`.
 
 **Example script**
