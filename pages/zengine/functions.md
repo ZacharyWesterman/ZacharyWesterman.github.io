@@ -17,6 +17,25 @@ Here I will write some introduction about functions. Something has to go here to
 
 ### Absolute Value
 
+The function for absolute value is `abs()`, where `abs(x)` returns the absolute value of `x`.
+
+**Example script**
+
+```
+main
+  print abs(-5.04)
+  print abs(10)
+endmain
+```
+
+**Output**
+
+```
+5.04
+10
+```
+
+
 
 ### Logarithms
 
