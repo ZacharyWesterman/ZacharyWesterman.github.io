@@ -153,11 +153,11 @@ endmain
 
 ### Setting Color Values
 
-Colors can be created using either `rgb()` or `rgba()`. Color values are just 4-byte integers with byte 1 assigned to red, byte 2 to blue, 3 to green, and 4 to the alpha (transparency) value. It is important to note that `rgba()` will give the same value as `rgb()`, if alpha is set to 255. It is also important to note that that the individual color values (e.g. alpha or red) should be integers ranging from 0-255 inclusive, but the program won't complain if you give it a number that doesn't follow these rules.  
+Colors can be created using either `rgb()` or `rgba()`. Color values are just 4-byte integers with byte 1 assigned to red, byte 2 to blue, 3 to green, and 4 to the alpha (transparency) value. It is important to note that `rgba()` will give the same value as `rgb()`, if alpha is set to 255. It is also important to note that that the individual color components (e.g. alpha or red) should be integers ranging from 0-255 inclusive, but the program won't complain if you give it numbers that don't follow these rules.  
   
-`rgb(r,g,b)` will construct a color from the given red, green, and blue values (`r`, `g`, and `b` respectively).  
+`rgb(r,g,b)` will construct a color from the given red, green, and blue components (`r`, `g`, and `b` respectively).  
 
-`rgba(r,g,b,a)` will construct a color from the given red, green, blue, and transparency values (`r`, `g`, `b`, and `a` respectively).
+`rgba(r,g,b,a)` will construct a color from the given red, green, blue, and transparency components (`r`, `g`, `b`, and `a` respectively).
 
 **Example script**
 
@@ -174,11 +174,42 @@ main
 endmain
 ```
 
-If you were to run the example, you would see the background start red, then after 1 second it would immediately switch to green.
+If you were to run the above example, you would see the background start red, then after 1 second it would switch to green.
 
 
 ### Getting Individual Color Values
 
+After a color is created, you may want to get one of the individual components of that color. You can do that with `red()`, `green()`, `blue()`, and `alpha()`. These return the color component that each name implies.  
+  
+`red(c)` gives the red component of the color `c`.  
+`green(c)` gives the green component of the color `c`.  
+`blue(c)` gives the blue component of the color `c`.  
+`alpha(c)` gives the transparency of the color `c`.  
+
+
+**Example script**
+
+```
+main
+  #make some color
+  C = rgba(100, 92, 154, 255)
+
+  #print the individual components of the color
+  print red(C)
+  print green(C)
+  print blue(C)
+  print alpha(C)
+endmain
+```
+
+**Output**
+
+```
+100
+92
+154
+255
+```
 
 
 {% include links.html %}
