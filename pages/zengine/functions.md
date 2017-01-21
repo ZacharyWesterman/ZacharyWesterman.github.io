@@ -116,6 +116,7 @@ All of the built-in trigonometric functions assume that angles are in radians. T
 
 ```
 main
+  #approximately pi, so answer won't be exact
   pi = 3.141592654
 
   #pi/4 radians should be 45 degrees 
@@ -135,6 +136,26 @@ endmain
 
 
 ### Square Root
+
+Although it is entirely possible to type the square root of a number `x` as `x^(1/2)`, it does have its own function. It can be called using `sqrt()`.  
+  
+`sqrt(x)` gives the square root of `x`. (Surprising!)
+
+**Example script**
+
+```
+main
+  print 25^(1/2)
+  print sqrt(25)
+endmain
+```
+
+**Output**
+
+```
+5
+5
+```
 
 
 ## Trigonometric Functions
