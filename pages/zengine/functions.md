@@ -315,6 +315,7 @@ In some cases, you may want to know what the current framerate of your program i
 `fps()` returns the window's current frames per second.
 
 **Example script**
+
 ```
 main
 
