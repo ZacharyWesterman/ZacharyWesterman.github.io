@@ -306,7 +306,7 @@ endmain
 ```
 
 
-##General Program Functions
+## General Program Functions
 
 ### Window Frames Per Second
 
