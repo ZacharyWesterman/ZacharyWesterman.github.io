@@ -15,6 +15,10 @@ entries:
       url: /index.html
       output: web, pdf
 
+    - title: Getting started
+      url: /zengine_getting_started.html
+      output: web, pdf
+
     - title: Support
       url: /zengine_support.html
       output: web, pdf
