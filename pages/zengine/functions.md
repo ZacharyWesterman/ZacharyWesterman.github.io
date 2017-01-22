@@ -9,7 +9,7 @@ folder: zengine
 
 ## Introduction
 
-    Although users may write their own functions, many mathematical functions are already built into the script parser. these functions can be placed in any regular expression, for example `(10*log(1000)/2) + " is fifteen"` is a perfectly valid expression (the result will be `15 is fifteen`). Naturally you can write nested function calls, such as `sqrt(irand(1,100))`. You can even define your own functions, however on this page only the built-in functions will be discussed.
+Although users may write their own functions, many mathematical functions are already built into the script parser. these functions can be placed in any regular expression, for example `(10*log(1000)/2) + " is fifteen"` is a perfectly valid expression (the result will be `15 is fifteen`). Naturally you can write nested function calls, such as `sqrt(irand(1,100))`. You can even define your own functions, however on this page only the built-in functions will be discussed.
 
 
 ## General Math Functions
