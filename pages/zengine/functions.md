@@ -9,7 +9,7 @@ folder: zengine
 
 ## Introduction
 
-Here I will write some introduction about functions. Something has to go here to prep the reader, but I will get the basic page structure down first before I figure out what that is.
+    Although users may write their own functions, many mathematical functions are already built into the script parser. these functions can be placed in any regular expression, for example `(10*log(1000)/2) + " is fifteen"` is a perfectly valid expression (the result will be `15 is fifteen`). Naturally you can write nested function calls, such as `sqrt(irand(1,100))`. You can even define your own functions, however on this page only the built-in functions will be discussed.
 
 
 ## General Math Functions
@@ -304,6 +304,29 @@ endmain
 154
 255
 ```
+
+
+##General Program Functions
+
+### Window Frames Per Second
+
+In some cases, you may want to know what the current framerate of your program is (for example, to display a warning if it drops below 5 frames per second). This can be done by calling `fps()`.  
+  
+`fps()` returns the window's current frames per second.
+
+**Example script**
+```
+main
+
+  #refresh the window title with the current fps
+  do
+    set window title fps() + " frames per second"
+  loop; #repeat indefinitely
+
+endmain
+```
+
+If you run the above script, the window will constantly display the current framerate (about 60 fps, unless specified otherwise).
 
 
 {% include links.html %}
