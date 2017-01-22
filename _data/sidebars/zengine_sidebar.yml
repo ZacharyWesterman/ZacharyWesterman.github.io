@@ -36,7 +36,7 @@ entries:
           url: /zengine_functions.html
           output: web
 
-        - title: General
+        - title: General math
           url: /zengine_functions.html#general-math-functions
           output: web
 
@@ -52,12 +52,16 @@ entries:
           url: /zengine_functions.html#color-functions
           output: web
 
+        - title: General program
+          url: /zengine_functions.html#general-program-functions
+          output: web
+
 
       - title: Commands
         output: web
         subfolderitems:
 
-        - title: List of commands
+        - title: All commands
           url: /zengine_commands.html
           output: web
 
