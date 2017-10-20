@@ -91,6 +91,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aa9cab14cd86065eacecbd5a4e17e6f36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classz_1_1core_1_1array.html">core::array</a>&lt; <a class="el" href="classz_1_1core_1_1string.html">core::string</a>&lt; char &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacez_1_1file.html#aa9cab14cd86065eacecbd5a4e17e6f36">listFiles</a> (const <a class="el" href="classz_1_1core_1_1string.html">core::string</a>&lt; char &gt; &amp;dir, const <a class="el" href="classz_1_1core_1_1string.html">core::string</a>&lt; char &gt; &amp;file_type)</td></tr>
 <tr class="memdesc:aa9cab14cd86065eacecbd5a4e17e6f36"><td class="mdescLeft">&#160;</td><td class="mdescRight">List all files of a given type in the given directory.  <a href="#aa9cab14cd86065eacecbd5a4e17e6f36">More...</a><br /></td></tr>
 <tr class="separator:aa9cab14cd86065eacecbd5a4e17e6f36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3361f66bf582a32daa9b983b7153e006"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classz_1_1core_1_1array.html">core::array</a>&lt; <a class="el" href="classz_1_1core_1_1string.html">core::string</a>&lt; char &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacez_1_1file.html#a3361f66bf582a32daa9b983b7153e006">listDirs</a> (const <a class="el" href="classz_1_1core_1_1string.html">core::string</a>&lt; char &gt; &amp;dir, bool showAll=false)</td></tr>
+<tr class="memdesc:a3361f66bf582a32daa9b983b7153e006"><td class="mdescLeft">&#160;</td><td class="mdescRight">List all sub-directories in the given directory.  <a href="#a3361f66bf582a32daa9b983b7153e006">More...</a><br /></td></tr>
+<tr class="separator:a3361f66bf582a32daa9b983b7153e006"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab568bf112a958f70f2ae06904c9eb48b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classz_1_1core_1_1string.html">core::string</a>&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacez_1_1file.html#ab568bf112a958f70f2ae06904c9eb48b">shorten</a> (const <a class="el" href="classz_1_1core_1_1string.html">core::string</a>&lt; char &gt; &amp;dir)</td></tr>
 <tr class="memdesc:ab568bf112a958f70f2ae06904c9eb48b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorten the given directory string.  <a href="#ab568bf112a958f70f2ae06904c9eb48b">More...</a><br /></td></tr>
 <tr class="separator:ab568bf112a958f70f2ae06904c9eb48b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -122,6 +125,45 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><b>True</b> if the file exists. <b>False</b> otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a3361f66bf582a32daa9b983b7153e006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3361f66bf582a32daa9b983b7153e006">&#9670;&nbsp;</a></span>listDirs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classz_1_1core_1_1array.html">core::array</a>&lt; <a class="el" href="classz_1_1core_1_1string.html">core::string</a>&lt;char&gt; &gt; z::file::listDirs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classz_1_1core_1_1string.html">core::string</a>&lt; char &gt; &amp;&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>showAll</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>List all sub-directories in the given directory. </p>
+<p>This function is meant to be a platform-independent way of allowing the user to get a list of all sub-directories in the given directory with the given file extension.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dir</td><td>the working directory. If <b>dir</b> is <b>""</b>, then it is assumed to be the current working directory.</td></tr>
+    <tr><td class="paramname">showAll</td><td>flag specifying whether to include hidden directories in the output.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An array containing the names of all sub-directories in the given directory. </dd></dl>
 
 </div>
 </div>
