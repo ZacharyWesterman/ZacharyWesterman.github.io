@@ -251,6 +251,12 @@ const <a class="el" href="classz_1_1core_1_1string.html">string</a>&lt; wchar_t 
 <tr class="memitem:a1e6bd7b1d5bbb4778dfd15e6f81df8d0"><td class="memItemLeft" align="right" valign="top">std::complex&lt; <a class="el" href="float_8h.html#aa34c7ef93b24ec926573a4da5c95bf04">Float</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz_1_1core_1_1string.html#a1e6bd7b1d5bbb4778dfd15e6f81df8d0">complexValue</a> (int base=10) const</td></tr>
 <tr class="memdesc:a1e6bd7b1d5bbb4778dfd15e6f81df8d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the string to its complex number equivalent.  <a href="#a1e6bd7b1d5bbb4778dfd15e6f81df8d0">More...</a><br /></td></tr>
 <tr class="separator:a1e6bd7b1d5bbb4778dfd15e6f81df8d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0f4b948b26b8d48cc87f887895d39a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz_1_1core_1_1string.html#aa0f4b948b26b8d48cc87f887895d39a1">isValue</a> (int base=10) const</td></tr>
+<tr class="memdesc:aa0f4b948b26b8d48cc87f887895d39a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this string can be converted to a real number.  <a href="#aa0f4b948b26b8d48cc87f887895d39a1">More...</a><br /></td></tr>
+<tr class="separator:aa0f4b948b26b8d48cc87f887895d39a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa6a4f3f8baedb929a3ec0ae0f04ad8c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz_1_1core_1_1string.html#afa6a4f3f8baedb929a3ec0ae0f04ad8c">isComplex</a> (int base=10) const</td></tr>
+<tr class="memdesc:afa6a4f3f8baedb929a3ec0ae0f04ad8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this string can be converted to a complex number.  <a href="#afa6a4f3f8baedb929a3ec0ae0f04ad8c">More...</a><br /></td></tr>
+<tr class="separator:afa6a4f3f8baedb929a3ec0ae0f04ad8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename CHAR&gt;<br />
@@ -778,6 +784,67 @@ template&lt;typename CHAR &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><b>True</b> if the sub-string was found in the full string and it ends at the given index. <b>False</b> otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="afa6a4f3f8baedb929a3ec0ae0f04ad8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa6a4f3f8baedb929a3ec0ae0f04ad8c">&#9670;&nbsp;</a></span>isComplex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CHAR &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classz_1_1core_1_1string.html">z::core::string</a>&lt; CHAR &gt;::isComplex </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>base</em> = <code>10</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if this string can be converted to a complex number. </p>
+<p>This function splits a numeric string into its real and imaginary parts according to <b>a+bi</b> or <b>a-bi</b>, where the imaginary part is assumed to come after the real part. If no imaginary part is detected, then it is assumed to be <b>0</b>. Also, note that if the base is greater than <b>17</b>, then the complex part is assumed to be <b>0</b> as well, because <b>I</b> is a digit in that case.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">base</td><td>an optional parameter for choosing the base that the string is assumed to be in.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>True</b> if the string contains only characters valid for conversion into a complex number. <b>False</b> otherwise.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>isValue(int) </dd></dl>
+
+</div>
+</div>
+<a id="aa0f4b948b26b8d48cc87f887895d39a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0f4b948b26b8d48cc87f887895d39a1">&#9670;&nbsp;</a></span>isValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CHAR &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classz_1_1core_1_1string.html">z::core::string</a>&lt; CHAR &gt;::isValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>base</em> = <code>10</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if this string can be converted to a real number. </p>
+<p>When converting a string to a number, alphabetic characters are assumed to represent numbers above <b>9</b>. So the string <b>"2EB0"</b> in base <b>16</b> would convert to <b>11952</b>. Valid numeric strings can have up to a single decimal point. A leading '-' is also allowed for negative numbers. Additionally, the character <b>'e'</b> or <b>'E'</b> is assumed to imply some exponent in the given base. This exponent can also be negative (e.g. <b>2.2e-3.1</b>). It is important to note bases above <b>14</b> (such as hexadecimal) have <b>E</b> as a digit, so exponents are only interpreted for bases less than 15.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">base</td><td>an optional parameter for choosing the base that the string is assumed to be in.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>True</b> if the string contains only characters valid for conversion into a value. <b>False</b> otherwise. </dd></dl>
 
 </div>
 </div>
