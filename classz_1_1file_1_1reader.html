@@ -98,13 +98,23 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz_1_1file_1_1reader.html#a7269a5d0675b4427bb045325a8f2d578">clear</a> ()</td></tr>
 <tr class="memdesc:a7269a5d0675b4427bb045325a8f2d578"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all buffer contents as well as the file name. <br /></td></tr>
 <tr class="separator:a7269a5d0675b4427bb045325a8f2d578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac246b7dba18c37b37556b0aa49162529"><td class="memItemLeft" align="right" valign="top">CHAR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz_1_1file_1_1reader.html#ac246b7dba18c37b37556b0aa49162529">get</a> ()</td></tr>
+<tr class="memdesc:ac246b7dba18c37b37556b0aa49162529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a single character from the file stream.  <a href="#ac246b7dba18c37b37556b0aa49162529">More...</a><br /></td></tr>
+<tr class="separator:ac246b7dba18c37b37556b0aa49162529"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f0b0786aa2fc04b8079fc8c58e7f5ca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz_1_1file_1_1reader.html#a5f0b0786aa2fc04b8079fc8c58e7f5ca">read</a> (const <a class="el" href="classz_1_1core_1_1timeout.html">core::timeout</a> &amp;time=<a class="el" href="classz_1_1core_1_1timeout.html">core::timeout</a>(-1))</td></tr>
 <tr class="memdesc:a5f0b0786aa2fc04b8079fc8c58e7f5ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the file contents.  <a href="#a5f0b0786aa2fc04b8079fc8c58e7f5ca">More...</a><br /></td></tr>
 <tr class="separator:a5f0b0786aa2fc04b8079fc8c58e7f5ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad569ae1587ce665cec3bdde870a346bc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz_1_1file_1_1reader.html#ad569ae1587ce665cec3bdde870a346bc">done</a> ()</td></tr>
+<tr class="memdesc:ad569ae1587ce665cec3bdde870a346bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get whether all contents of the file have been read.  <a href="#ad569ae1587ce665cec3bdde870a346bc">More...</a><br /></td></tr>
+<tr class="separator:ad569ae1587ce665cec3bdde870a346bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ab09768f8ec4cca938776b9cf10cf91"><td class="memItemLeft" align="right" valign="top"><a id="a6ab09768f8ec4cca938776b9cf10cf91"></a>
 const CHAR *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz_1_1file_1_1reader.html#a6ab09768f8ec4cca938776b9cf10cf91">getContents</a> () const</td></tr>
 <tr class="memdesc:a6ab09768f8ec4cca938776b9cf10cf91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to the contents buffer. <br /></td></tr>
 <tr class="separator:a6ab09768f8ec4cca938776b9cf10cf91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a345f8d29d44deeb916dc0353c6d54078"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a345f8d29d44deeb916dc0353c6d54078"><td class="memTemplItemLeft" align="right" valign="top">char&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classz_1_1file_1_1reader.html#a345f8d29d44deeb916dc0353c6d54078">get</a> ()</td></tr>
+<tr class="memdesc:a345f8d29d44deeb916dc0353c6d54078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a single (narrow) character from the file stream.  <a href="#a345f8d29d44deeb916dc0353c6d54078">More...</a><br /></td></tr>
+<tr class="separator:a345f8d29d44deeb916dc0353c6d54078"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc125171d3e92aac42d8dde6ed332a9d"><td class="memTemplParams" colspan="2"><a id="afc125171d3e92aac42d8dde6ed332a9d"></a>
 template&lt;&gt; </td></tr>
 <tr class="memitem:afc125171d3e92aac42d8dde6ed332a9d"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classz_1_1file_1_1reader.html#afc125171d3e92aac42d8dde6ed332a9d">read</a> (const <a class="el" href="classz_1_1core_1_1timeout.html">core::timeout</a> &amp;time)</td></tr>
@@ -119,6 +129,82 @@ class z::file::reader&lt; CHAR &gt;</h3>
 <p>The <a href="file::loader">file::loader</a> class loads as much of a file as possible before the specified timeout. If timeout is reached, closes the file. Then attempts to reopen file and continue loading at each subsequent call.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classz_1_1file_1_1writer.html" title="A class for iterative file writing. ">writer</a> </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad569ae1587ce665cec3bdde870a346bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad569ae1587ce665cec3bdde870a346bc">&#9670;&nbsp;</a></span>done()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CHAR &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classz_1_1file_1_1reader.html">z::file::reader</a>&lt; CHAR &gt;::done </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get whether all contents of the file have been read. </p>
+<dl class="section return"><dt>Returns</dt><dd><b>True</b> if we have reached the end of the file. <b>False</b> otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="ac246b7dba18c37b37556b0aa49162529"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac246b7dba18c37b37556b0aa49162529">&#9670;&nbsp;</a></span>get() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CHAR &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">CHAR <a class="el" href="classz_1_1file_1_1reader.html">z::file::reader</a>&lt; CHAR &gt;::get </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a single character from the file stream. </p>
+<p>Does not store the character in the buffer and any subsequent calls to <a class="el" href="classz_1_1file_1_1reader.html#a5f0b0786aa2fc04b8079fc8c58e7f5ca" title="Load the file contents. ">read()</a> will not put this character in the buffer.</p>
+<dl class="section return"><dt>Returns</dt><dd>The next character in the file. </dd></dl>
+
+</div>
+</div>
+<a id="a345f8d29d44deeb916dc0353c6d54078"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a345f8d29d44deeb916dc0353c6d54078">&#9670;&nbsp;</a></span>get() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">char <a class="el" href="classz_1_1file_1_1reader.html">z::file::reader</a>&lt; char &gt;::get </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a single (narrow) character from the file stream. </p>
+<p>Does not store the character in the buffer and any subsequent calls to <a class="el" href="classz_1_1file_1_1reader.html#a5f0b0786aa2fc04b8079fc8c58e7f5ca" title="Load the file contents. ">read()</a> will not put this character in the buffer.</p>
+<dl class="section return"><dt>Returns</dt><dd>The next character in the file. </dd></dl>
+
+</div>
+</div>
 <a id="a5f0b0786aa2fc04b8079fc8c58e7f5ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f0b0786aa2fc04b8079fc8c58e7f5ca">&#9670;&nbsp;</a></span>read()</h2>
 

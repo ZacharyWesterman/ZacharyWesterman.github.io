@@ -85,8 +85,12 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a2f0116baf39892467baa49b2a81a571e"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename  = typename std::enable_if&lt;std::is_integral&lt;INT&gt;::value&gt;::type&gt; </td></tr>
 <tr class="memitem:a2f0116baf39892467baa49b2a81a571e"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacez_1_1math.html#a2f0116baf39892467baa49b2a81a571e">factorial</a> (INT n)</td></tr>
-<tr class="memdesc:a2f0116baf39892467baa49b2a81a571e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the factorial of the integer <b>n</b>.  <a href="#a2f0116baf39892467baa49b2a81a571e">More...</a><br /></td></tr>
+<tr class="memdesc:a2f0116baf39892467baa49b2a81a571e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the factorial of the integer <b>n</b>. Does not check for overflow.  <a href="#a2f0116baf39892467baa49b2a81a571e">More...</a><br /></td></tr>
 <tr class="separator:a2f0116baf39892467baa49b2a81a571e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e9c928f5b37ba885b3516495dfb81eb"><td class="memTemplParams" colspan="2">template&lt;typename INT , typename  = typename std::enable_if&lt;std::is_integral&lt;INT&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:a0e9c928f5b37ba885b3516495dfb81eb"><td class="memTemplItemLeft" align="right" valign="top">INT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacez_1_1math.html#a0e9c928f5b37ba885b3516495dfb81eb">factorial</a> (INT n, bool &amp;did_overflow)</td></tr>
+<tr class="memdesc:a0e9c928f5b37ba885b3516495dfb81eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the factorial of the integer <b>n</b>, but let us know if it overflowed.  <a href="#a0e9c928f5b37ba885b3516495dfb81eb">More...</a><br /></td></tr>
+<tr class="separator:a0e9c928f5b37ba885b3516495dfb81eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67d3c79e6ed245de94e5fe98c517b6a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="float_8h.html#aa34c7ef93b24ec926573a4da5c95bf04">Float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacez_1_1math.html#a67d3c79e6ed245de94e5fe98c517b6a6">fibonacci</a> (<a class="el" href="float_8h.html#aa34c7ef93b24ec926573a4da5c95bf04">Float</a> n)</td></tr>
 <tr class="memdesc:a67d3c79e6ed245de94e5fe98c517b6a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the n<sup>th</sup> number in the Fibonacci sequence.  <a href="#a67d3c79e6ed245de94e5fe98c517b6a6">More...</a><br /></td></tr>
 <tr class="separator:a67d3c79e6ed245de94e5fe98c517b6a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,7 +137,7 @@ const <a class="el" href="float_8h.html#aa34c7ef93b24ec926573a4da5c95bf04">Float
 <div class="textblock"><p>Library of math-related functions, constants, and datatypes. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a2f0116baf39892467baa49b2a81a571e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f0116baf39892467baa49b2a81a571e">&#9670;&nbsp;</a></span>factorial()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f0116baf39892467baa49b2a81a571e">&#9670;&nbsp;</a></span>factorial() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -150,10 +154,50 @@ template&lt;typename INT , typename  = typename std::enable_if&lt;std::is_integr
       </table>
 </div><div class="memdoc">
 
-<p>Calculate the factorial of the integer <b>n</b>. </p>
+<p>Calculate the factorial of the integer <b>n</b>. Does not check for overflow. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">n</td><td>a positive integer.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The factorial of <b>n</b>, if <b>n&gt;0</b> and the factorial is able to be represented. <b>0</b> otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a0e9c928f5b37ba885b3516495dfb81eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e9c928f5b37ba885b3516495dfb81eb">&#9670;&nbsp;</a></span>factorial() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename INT , typename  = typename std::enable_if&lt;std::is_integral&lt;INT&gt;::value&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">INT z::math::factorial </td>
+          <td>(</td>
+          <td class="paramtype">INT&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>did_overflow</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the factorial of the integer <b>n</b>, but let us know if it overflowed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>a positive integer. </td></tr>
+    <tr><td class="paramname">did_overflow</td><td>whether the calculation overflowed, returned by reference.</td></tr>
   </table>
   </dd>
 </dl>

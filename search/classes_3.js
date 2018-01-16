@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['info',['info',['../classz_1_1file_1_1info.html',1,'z::file']]]
+  ['generic',['generic',['../classz_1_1util_1_1generic.html',1,'z::util']]]
 ];
