@@ -8,5 +8,6 @@ var searchData=
   ['listdirs',['listDirs',['../namespacez_1_1file.html#a3361f66bf582a32daa9b983b7153e006',1,'z::file']]],
   ['listfiles',['listFiles',['../namespacez_1_1file.html#aa9cab14cd86065eacecbd5a4e17e6f36',1,'z::file']]],
   ['load',['load',['../classz_1_1file_1_1library.html#a7899c10ccc85f8902f9f162b1fcb4fbe',1,'z::file::library']]],
-  ['lower',['lower',['../classz_1_1core_1_1string.html#a394dc1d1c094c71aca93aecf2cdd5937',1,'z::core::string']]]
+  ['lower',['lower',['../classz_1_1core_1_1string.html#a394dc1d1c094c71aca93aecf2cdd5937',1,'z::core::string']]],
+  ['license',['LICENSE',['../md_Doxypages_LICENSE.html',1,'']]]
 ];

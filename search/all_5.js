@@ -7,7 +7,7 @@ var searchData=
   ['findafter',['findAfter',['../classz_1_1core_1_1string.html#ac5c9ee95a2bb2d50ba75443180251739',1,'z::core::string']]],
   ['findinsert',['findInsert',['../classz_1_1core_1_1sortedArray.html#af78ff3950d799ab6346488eb8dcc7b99',1,'z::core::sortedArray::findInsert()'],['../classz_1_1core_1_1sortedRefArray.html#aeafd29f404171de117944b48d41f17e9',1,'z::core::sortedRefArray::findInsert()']]],
   ['findlast',['findLast',['../classz_1_1core_1_1string.html#a59699874475c0729b4ec2c029f7329d7',1,'z::core::string']]],
-  ['float',['Float',['../float_8h.html#aa34c7ef93b24ec926573a4da5c95bf04',1,'z']]],
+  ['float',['Float',['../namespacez.html#aa34c7ef93b24ec926573a4da5c95bf04',1,'z']]],
   ['float_2eh',['float.h',['../float_8h.html',1,'']]],
   ['float_5fcast',['Float_cast',['../unionz_1_1Float__cast.html',1,'z']]],
   ['floating',['floating',['../classz_1_1util_1_1generic.html#ae2d18dbfe94f6f3038aa50b5305dbb02',1,'z::util::generic']]],

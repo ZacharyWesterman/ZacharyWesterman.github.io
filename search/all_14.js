@@ -5,5 +5,7 @@ var searchData=
   ['zlibraries_20documentation',['zLibraries Documentation',['../index.html',1,'']]],
   ['math',['math',['../namespacez_1_1math.html',1,'z']]],
   ['util',['util',['../namespacez_1_1util.html',1,'z']]],
+  ['z',['z',['../namespacez.html',1,'']]],
+  ['z_2eh',['z.h',['../z_8h.html',1,'']]],
   ['zeta',['zeta',['../namespacez_1_1math.html#a6faeab54e9d142e650792e2bbef401a9',1,'z::math']]]
 ];

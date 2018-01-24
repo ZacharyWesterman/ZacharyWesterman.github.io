@@ -2,7 +2,7 @@ var searchData=
 [
   ['info',['info',['../classz_1_1file_1_1info.html',1,'z::file::info'],['../classz_1_1file_1_1info.html#aa67ca3f3e4d2c66958ff13e245fe3661',1,'z::file::info::info()']]],
   ['insert',['insert',['../classz_1_1core_1_1array.html#aeab194134ac70e5abf468e08408418f1',1,'z::core::array']]],
-  ['int',['Int',['../int_8h.html#acf760f89a2f61c4eca0fea405f1bf9f7',1,'z']]],
+  ['int',['Int',['../namespacez.html#acf760f89a2f61c4eca0fea405f1bf9f7',1,'z']]],
   ['int_2eh',['int.h',['../int_8h.html',1,'']]],
   ['integer',['integer',['../classz_1_1util_1_1generic.html#ae4600aa1ebb46aa203d3f54d751bd3bb',1,'z::util::generic']]],
   ['is_5fvalid',['is_valid',['../classz_1_1core_1_1array.html#adce688315faeb72efbc33cd28980c4bb',1,'z::core::array']]],
