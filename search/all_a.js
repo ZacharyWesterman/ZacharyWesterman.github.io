@@ -2,6 +2,7 @@ var searchData=
 [
   ['makedir',['makeDir',['../namespacez_1_1file.html#a7befb7ba54b3254f75882399c94667d3',1,'z::file']]],
   ['mantissa',['mantissa',['../unionz_1_1Float__cast.html#aa80b074f869eccc94f516f810f5417a8',1,'z::Float_cast']]],
+  ['match',['match',['../classz_1_1util_1_1regex.html#a6bd5c632e89967b6b868d3dab9ab4bfd',1,'z::util::regex']]],
   ['math_2eh',['math.h',['../math_8h.html',1,'']]],
   ['matrix',['matrix',['../classz_1_1math_1_1matrix.html',1,'z::math']]],
   ['micros',['micros',['../classz_1_1core_1_1timer.html#ae993a5f70c95f1a253fb3715f3194cda',1,'z::core::timer']]],
