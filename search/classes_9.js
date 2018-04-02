@@ -1,6 +1,10 @@
 var searchData=
 [
-  ['reader',['reader',['../classz_1_1file_1_1reader.html',1,'z::file']]],
-  ['refarray',['refArray',['../classz_1_1core_1_1refArray.html',1,'z::core']]],
-  ['regex',['regex',['../classz_1_1util_1_1regex.html',1,'z::util']]]
+  ['sortedarray',['sortedArray',['../classz_1_1core_1_1sortedArray.html',1,'z::core']]],
+  ['sortedrefarray',['sortedRefArray',['../classz_1_1core_1_1sortedRefArray.html',1,'z::core']]],
+  ['stream',['stream',['../classz_1_1core_1_1stream.html',1,'z::core']]],
+  ['stream_3c_20char_20_3e',['stream&lt; char &gt;',['../classz_1_1core_1_1stream.html',1,'z::core']]],
+  ['string',['string',['../classz_1_1core_1_1string.html',1,'z::core']]],
+  ['string_3c_20char_20_3e',['string&lt; char &gt;',['../classz_1_1core_1_1string.html',1,'z::core::string&lt; char &gt;'],['../classz_1_1core_1_1string.html',1,'z::core::string&lt; Char &gt;']]],
+  ['stringstream',['stringStream',['../classz_1_1core_1_1stringStream.html',1,'z::core']]]
 ];
