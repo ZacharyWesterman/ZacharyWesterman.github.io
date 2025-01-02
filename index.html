@@ -1,1 +1,92 @@
-<meta http-equiv="REFRESH" content="0;URL=libzed/index.html">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1c1d1f;
+            color: #d2dbde;
+        }
+
+        header {
+            background-color: #252628;
+            color: #d2dbde;
+            padding: 1rem;
+            text-align: center;
+            border-bottom: solid 1px #38393b;
+        }
+
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 1rem 0;
+        }
+
+        a {
+            color: #1982d2;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Zachary Westerman</h1>
+        <p>Welcome to my GitHub projects page!</p>
+    </header>
+    <main>
+        <h2>Long-Running Projects</h2>
+        <p>These are projects that I often come back to because I enjoy working on them. No particular order.</p>
+        <ul>
+            <li>
+                <strong><a href="https://github.com/zacharywesterman/libzed" target="_blank">LIBZED</a></strong> -
+                <a href="libzed/" target="_blank">Documentation</a>
+                <br>
+                A general-purpose library to take the pain out of C++ development.
+                Contains a lot of useful quality-of-life functions and classes that I've developed over the years, while
+                still being less bloated than something like Boost.
+                Most importantly, it is simple to use, decently performant, and platform-independent.
+            </li>
+            <li>
+                <strong><a href="https://github.com/zacharywesterman/skrunk" target="_blank">SKRUNK</a></strong> -
+                <a href="skrunk/" target="_blank">Documentation</a>
+                <br>
+                My home-built database solution for managing personal data and interacting with other projects.
+                It's light on dependencies and performant even on slow or spotty connections. A significant focus is
+                also on security; in addition to requiring auth for <i>every request</i>, there is a robust system of
+                permissions, user groups, & modules that allow for both over-arching and fine-grained control over who
+                can access what; all of which are enforced on the backend as well as the frontend.
+            </li>
+            <li>
+                <strong><a href="https://github.com/zacharywesterman/paisley" target="_blank">PAISLEY</a></strong> -
+                <!-- <a href="paisley/" target="_blank">Documentation</a> -->
+                <i style="color:gray;">See the Readme. More documentation is pending.</i>
+                <br>
+                A scripting language originally designed for use in a game engine, but now usable on any machine that
+                can run Lua.
+                It can even create standalone executables for systems that don't have Lua installed!
+            </li>
+        </ul>
+    </main>
+</body>
+
+</html>
