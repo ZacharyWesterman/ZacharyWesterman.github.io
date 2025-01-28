@@ -65,6 +65,8 @@
                 Contains a lot of useful quality-of-life functions and classes that I've developed over the years, while
                 still being less bloated than something like Boost.
                 Most importantly, it is simple to use, decently performant, and platform-independent.
+                <br>
+                <i style="color:gray;">Fun Fact: The patch version (the Z in vX.Y.Z) is automatically updated on each commit, as is the documentation.</i>
             </li>
             <li>
                 <strong><a href="https://github.com/zacharywesterman/skrunk" target="_blank">SKRUNK</a></strong> -
@@ -79,12 +81,39 @@
             <li>
                 <strong><a href="https://github.com/zacharywesterman/paisley" target="_blank">PAISLEY</a></strong> -
                 <!-- <a href="paisley/" target="_blank">Documentation</a> -->
-                <i style="color:gray;">See the Readme. More documentation is pending.</i>
+                <i style="color:gray;">See the Readme for full documentation.</i>
                 <br>
-                A scripting language originally designed for use in a game engine, but now usable on any machine that
-                can run Lua.
-                It can even create standalone executables for systems that don't have Lua installed!
+                A "batteries included" scripting language with simple syntax and a large suite of data manipulation features.
+                It's usable on any machine that can run Lua, and is designed with minimal dependencies in mind, so even the most basic of systems can run it.
+                It can even create standalone executables for systems that don't have Lua installed at all!
+                <br>
+                <i style="color:gray;">Fun Fact: The language was originally designed to get around game engine's limitations.</i>
             </li>
+        </ul>
+
+        <hr>
+
+        <h2>Smaller (but interesting) Projects</h2>
+        <p>
+            These are small projects that are basically complete.
+            Interesting tools that I've made to solve a specific problem.
+        </p>
+
+        <ul>
+            <li>
+                <strong><a href="https://github.com/zacharywesterman/skrunk_api" target="_blank">SKRUNK API</a></strong>
+                <br>
+                A simple Python module for interacting with a SKRUNK server. It makes it dead simple to perform API queries and mutations.
+                Every possible query and mutation is available as a method of the Session class, and in plain text for easy reference.
+                <br>
+                <i style="color:gray;">Fun Fact: the list of queries gets programmatically updated from the main Skrunk repo.</i>
+            </li>
+            <li>
+                <strong><a href="https://github.com/zacharywesterman/tag_query" target="_blank">TAG QUERY</a></strong>
+                <br>
+                A simple yet powerful <a href="https://en.wikipedia.org/wiki/Domain-specific_language" target="_blank">DSL</a> that converts a string expression into a mongoDB query.
+                Specifically, it's meant to allow for complex queries to be run on an array field in some mongoDB document, in a way that is both human-readable and easy to write.
+                This was originally designed to be used with Skrunk for querying files by their tags, but it can be used with any mongoDB database.
         </ul>
     </main>
 </body>
