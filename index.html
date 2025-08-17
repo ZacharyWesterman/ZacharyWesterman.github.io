@@ -53,6 +53,11 @@
         .wip {
             color: orange;
         }
+
+        .title {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -66,7 +71,7 @@
         <p>These are projects that I often come back to because I enjoy working on them. No particular order.</p>
         <ul>
             <li>
-                <strong><a href="https://github.com/zacharywesterman/libzed" target="_blank">LIBZED</a></strong> -
+                <a class="title" href="https://github.com/zacharywesterman/libzed" target="_blank">Libzed</a> -
                 <a href="libzed/" target="_blank">Documentation</a>
                 <br>
                 A general-purpose library to take the pain out of C++ development (and keep my C++ skills sharp!).
@@ -77,7 +82,7 @@
                 <i class="comment">Fun Fact: The patch version (the Z in vX.Y.Z) is automatically updated on each commit, as is the documentation.</i>
             </li>
             <li>
-                <strong><a href="https://github.com/zacharywesterman/skrunk" target="_blank">SKRUNK</a></strong> -
+                <a class="title" href="https://github.com/zacharywesterman/skrunk" target="_blank">Skrunk</a> -
                 <a href="skrunk/" target="_blank">Documentation</a>
                 <br>
                 My home-built database solution for managing personal data and interacting with other projects.
@@ -89,7 +94,7 @@
                 <i class="comment">Fun Fact: On the client side, the only third-party dependency is font-awesome icons. I also designed the logo!</i>
             </li>
             <li>
-                <strong><a href="https://github.com/zacharywesterman/paisley" target="_blank">PAISLEY</a></strong> -
+                <a class="title" href="https://github.com/zacharywesterman/paisley" target="_blank">Paisley</a> -
                 <!-- <a href="paisley/" target="_blank">Documentation</a> -->
                 <i class="comment">See the Readme for full documentation.</i>
                 <br>
@@ -111,7 +116,7 @@
 
         <ul>
             <li>
-                <strong><a href="https://github.com/zacharywesterman/skrunk_api" target="_blank">SKRUNK API</a></strong>
+                <a class="title" href="https://github.com/zacharywesterman/skrunk_api" target="_blank">Skrunk API</a>
                 <br>
                 A simple Python module for interacting with a SKRUNK server. It makes it dead simple to perform API queries and mutations.
                 Every possible query and mutation is available as a method of the Session class, and in plain text for easy reference.
@@ -119,14 +124,22 @@
                 <i class="comment">Fun Fact: the list of queries gets programmatically updated from the main Skrunk repo.</i>
             </li>
             <li>
-                <strong><a href="https://github.com/zacharywesterman/tag_query" target="_blank">TAG QUERY</a></strong>
+                <a class="title" href="https://github.com/zacharywesterman/tag_query" target="_blank">Tag Query</a>
                 <br>
                 A simple yet powerful <a href="https://en.wikipedia.org/wiki/Domain-specific_language" target="_blank">DSL</a> that converts a string expression into a mongoDB query.
                 Specifically, it's meant to allow for complex queries to be run on an array field in some mongoDB document, in a way that is both human-readable and easy to write.
                 This was originally designed to be used with Skrunk for querying files by their tags, but it can be used with any mongoDB database.
             </li>
             <li>
-                <strong><a href="https://github.com/zacharywesterman/subsonic-kiosk" target="_blank">SUBSONIC KIOSK</a></strong> -
+                <a class="title" href="https://github.com/zacharywesterman/paisley-vscode" target="_blank">Paisley VS Code Extension</a>
+                <br>
+                A Visual Studio Code extension that adds syntax highlighting and language support for the Paisley scripting language.
+                This extension makes it easier to write and maintain Paisley scripts by providing editor features tailored to the language.
+                <br>
+                This extension was developed alongside the Paisley language itself.
+            </li>
+            <li>
+                <a class="title" href="https://github.com/zacharywesterman/subsonic-kiosk" target="_blank">Subsonic Kiosk</a> -
                 <a href="subsonic-kiosk/" target="_blank">Documentation</a>
                 <br>
                 An Arduino project that converts an Arduino Giga and Giga Display Shield into a music-streaming kiosk.
